@@ -1,0 +1,143 @@
+.chatperson{
+    display: block;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 4px;
+  }
+  .chatperson:hover{
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+  }
+  .namechat {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .chatperson .chatimg img{
+    width: 40px;
+    height: 40px;
+    background-image: url('http://i.imgur.com/JqEuJ6t.png');
+  }
+  .chatperson .pname{
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  .chatperson .lastmsg{
+    font-size: 12px;
+    padding-left: 5px;
+    color: #ccc;
+  }
+  
+  .chatbody{
+    min-height: 73vh;
+    max-height: 73vh !important;
+    overflow-y:scroll;
+  }
+  
+  .docuimg img{
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    background-image: url('http://i.imgur.com/JqEuJ6t.png');
+  }
+  
+  
+  
+  
+  .eventperson{
+    display: block;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 4px;
+  }
+  .eventperson:hover{
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+  }
+  .nameevent {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .eventperson .eventimg img{
+    width: 40px;
+    height: 40px;
+    background-image: url('http://i.imgur.com/JqEuJ6t.png');
+  }
+  .eventperson .pname{
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  .eventperson .lastmsg{
+    font-size: 12px;
+    padding-left: 5px;
+    color: #ccc;
+  }
+  
+  
+  
+  
+  
+  .reportperson{
+    display: block;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 4px;
+  }
+  .reportperson:hover{
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+  }
+  .namereport {
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .reportperson .reportimg img{
+    width: 40px;
+    height: 40px;
+    background-image: url('http://i.imgur.com/JqEuJ6t.png');
+  }
+  .reportperson .pname{
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  .reportperson .lastmsg{
+    font-size: 12px;
+    padding-left: 5px;
+    color: #ccc;
+  }
+  
+  .inputWrapper {
+    height: 32px;
+    width: 64px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .fileInput {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+  }
