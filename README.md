@@ -5,16 +5,4 @@ This application was created to be used as a communication tool, incident monito
 The system consists of a web and mobile application however, this repository only includes the web application. It was created using HTML5, Bootstrap, PHP Laravel and third party APIs such as Google Maps and Google Firestore for real-time database.
 
 # More Information
-See screenshots and information in: https://www.slideshare.net/MarianneDanicaNacion/dispatch-management-system
-
-**Developers**: 
-Web application 
-
- - Alcain, Archiebald Boy P.
- - Nacionales, Marianne Danica P.
-
-Mobile Application
-
- - Arroyo, Arvin B.
- - Barredo, Brian K.
- - Quijano, Aaron Raphael S.
+See screenshots and information in: https://www.slideshare.net/MarianneDanicaNacion/dispatch-management-syste
